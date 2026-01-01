@@ -1669,7 +1669,7 @@ document.getElementById("MT").value = res;
 var str = document.getElementById("MT").value;
 var res = str.replace(/(_VH\w+ [\w\s-']+ \w+)_VVD(_VVN)\s/ig, "$1$2 ");
 document.getElementById("MT").value = res; 
-// II_RL_RP across //https://englishgrammar.pro/across/
+// II_RL_RP across //../across/
 var str = document.getElementById("MT").value;
 var res = str.replace(/\b(ACross)\s/ig, "$1_II_RL_RP ");
 document.getElementById("MT").value = res;
@@ -8647,7 +8647,7 @@ var res = str.replace(/\b(OUTSTANDING)\s/ig, "$1_JJ ");
 document.getElementById("MT").value = res;
 //preposition adverb of degree adverb particle 
 var str = document.getElementById("MT").value;
-var res = str.replace(/\b(OVER)\s/ig, "$1_II_RG_RP ");//1 OVER (II) 5556774 3 OVER (RG) 2900750 4 OVER (RP) 2142008 https://englishgrammar.pro/over/
+var res = str.replace(/\b(OVER)\s/ig, "$1_II_RG_RP ");//1 OVER (II) 5556774 3 OVER (RG) 2900750 4 OVER (RP) 2142008 ../over/
 document.getElementById("MT").value = res;
 //was_VBDZ all_RR21 but_RR22 over_II_RG_RP
 var str = document.getElementById("MT").value;
