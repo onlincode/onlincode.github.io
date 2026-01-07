@@ -1,5 +1,5 @@
 //copyright EnglishGrammar.Pro 2020.  The tagger was created by JOHN BOZINOV for EnglishGrammar.Pro 
-//If you use this javascript file, please place an active link back to http://englishgrammar.pro in appreciation.
+//If you use this javascript file, please place an active link back to http://onlincode.github.io in appreciation.
 function myFunction(){
 //remove carriage return
 var str = document.getElementById("MT").value; 
